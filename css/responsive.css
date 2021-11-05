@@ -1,0 +1,145 @@
+@media (max-width:1300px) {
+  .container {
+    margin: auto;
+  }
+
+  #showcase-alt .container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width:765px) {
+ .container {
+   margin: auto;
+ }
+}
+
+@media (max-width:547px) {
+  nav .container {
+    flex-direction: column;
+    height: 85px;
+    margin: 0 2rem;
+    
+  }
+
+  nav {
+    border-bottom: none;
+  }
+
+  #nav-img a {
+    border-bottom: none !important;
+  }
+
+  #showcase .container h1 {
+    font-size: 1.6rem;
+    padding: 0 1rem;
+  }
+
+  #showcase-alt .container {
+    padding:0 0 2 0;
+  }
+
+  #showcase-alt .container {
+    flex-direction: column;
+  }
+
+  #showcase-alt .container #show-img {
+    background-image: url(/img/showcaseresp.png);
+    width: 150px;
+    height: 95px;
+    padding: 1 0;
+  }
+
+  #showcase-alt .container .text-container {
+    padding-top: 2rem;
+    min-width: none;
+    padding: 0 2rem;
+    text-align: center;
+  }
+
+  #showcase-alt .container .text-container h1 {
+    padding: 1rem;
+  }
+
+  #showcase-alt .container .text-container ul li {
+    font-size: 0.7rem;
+    padding: 0.8rem 0.4rem;
+  }
+
+  #attributes-section .container {
+    flex-direction: column;
+  } 
+
+  #attributes-section .container .att-sheet {
+    margin: 1rem;
+    padding: 0 2rem;
+    height: 20rem;
+  } 
+
+  #attributes-section .container .att-sheet {
+    height: fit-content;
+  }
+  #contact-sect .container {
+    margin: 0;
+  }
+  #contact-sect .container form {
+    margin: auto;
+  }
+
+  #contact-sect .container form input{
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  #contact-alt {
+    height: fit-content;
+    background-color: rgb(243, 243, 243)
+  }
+
+  #contact-alt .container .contact-opt{
+    font-size: 0.8rem;
+    flex-direction: column;
+  }
+
+  #contact-alt .container .contact-opt .contact-sheet {
+    padding: 1rem;
+  }
+
+  #profile-alt .container{
+    margin: 0;
+  }
+
+  #profile-alt .container p{
+    margin: 0 3rem;
+  }
+}
+
+ @media (max-width:330px) {
+
+  nav .container #nav-img a {
+    padding: 0rem;
+  }
+
+  nav {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav .container {
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  nav .container ul li {
+    font-size: 0.8rem;
+    padding: 1rem 0.2rem; 
+  }
+
+  #showcase-alt .container #show-img {
+    min-width: 150px;
+    min-height: 95px;
+  }
+
+}
